@@ -5,6 +5,7 @@
   </header>
 
   <div class="panel panel-default items">
+  <% if enhanced_cart.length != 0 %>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -30,6 +31,9 @@
         </tr>
       </tfoot>
     </table>
+    <% else %>
+    <p style="color: grey; font-size: 1.5em; margin-bottom: 1em;">Your cart is currently empty.</p>
+  <% end %>
   </div>
 
   <div class="row">
