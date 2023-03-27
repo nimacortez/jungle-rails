@@ -43,6 +43,7 @@ gem 'rmagick'
 # Fake Data with Faker & Carrierwave
 gem 'faker'
 gem 'carrierwave'
+gem 'mini_racer'
 
 
 # Use Active Storage variant
